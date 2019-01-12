@@ -1,2 +1,2 @@
 let
-    str: string = "Martin was here";
+    str: string = "Hello, world";
