@@ -33,16 +33,16 @@
     }
   },
   "lint-staged": {
-    "*.ts": [
-      "tslint --fix",
-      "git add"
-    ],
     "*.scss": [
       "stylelint --fix --syntax=scss",
       "git add"
     ],
     "*.{ts,scss,html,md,json}": [
       "prettier --write",
+      "git add"
+    ],
+    "*.ts": [
+      "tslint --fix",
       "git add"
     ]
   }
