@@ -1,2 +1,1 @@
-let
-    str: string = "Hello, world";
+let str = 'Hello, world';
